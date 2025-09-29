@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.10.2)
+  - Cosmos (25.0.1)
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+  - SideMenu (6.5.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos (~> 25.0)
+  - NVActivityIndicatorView
+  - SideMenu (~> 6.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - NVActivityIndicatorView
+    - SideMenu
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Cosmos: 02db0a1c953107049bfd2d7af19ceef55ecb7e98
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 3410d6f155e8bef3bd7c311f5dfdacb6edda7132
+
+COCOAPODS: 1.16.2
