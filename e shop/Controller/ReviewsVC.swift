@@ -30,7 +30,7 @@ extension ReviewsVC: UITableViewDataSource, UITableViewDelegate {
         let review = products.reviews[indexPath.row]
         cell.reviewerNameLabel.text = review.reviewerName
         cell.commentLabel.text = review.comment
-        cell.ratingLabel.text = String(review.rating)
+        cell.ratingStarsView.rating = Double(review.rating)
         cell.reviewDateLabel.text = review.date
         return cell
     }

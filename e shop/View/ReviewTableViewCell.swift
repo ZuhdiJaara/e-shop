@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Cosmos
 
 class ReviewTableViewCell: UITableViewCell {
     
@@ -18,7 +19,14 @@ class ReviewTableViewCell: UITableViewCell {
             backView.layer.cornerRadius = 7
         }
     }
-    @IBOutlet weak var ratingLabel: UILabel!
+    
+    @IBOutlet weak var ratingStarsView: CosmosView!{
+        didSet{
+            ratingStarsView.settings.updateOnTouch = false
+            ratingStarsView.settings.fillMode = .precise
+            ratingStarsView.settings.starSize = 15
+        }
+    }
     @IBOutlet weak var reviewDateLabel: UILabel!
     @IBOutlet weak var commentLabel: UILabel!
     @IBOutlet weak var reviewerNameLabel: UILabel!
